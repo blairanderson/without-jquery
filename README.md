@@ -10,8 +10,27 @@ I do lots of mentoring with [coding programs/bootcamps](http://gschool.blairande
 I was in that same boat, along with many people in their first year of learning programming and javascript, and if you are working with a junior engineer, do not be certain that they fully understand this relationship...
 
 # Purpose
+**EDUCATION**
+I initially learned jQuery with code examples like "*How to Toggle Class on Click*"...  
 
-To provide code examples of how to do all-things-jQuery, **without jQuery**.
+Our purpose is to educate people that understand jQuery and want to learn Plain Old Javascript!
+
+Lets provide code examples of how to do all-things-jQuery, **without jQuery**.
+
+To be clear, I have a great amount of respect for jQuery, and still introduce it to 90% of projects. The purpose of this repo is EDUCATION.
+
+inspiration:
+- https://github.com/jquery/jquery/tree/master/src
+- http://remysharp.com/2013/04/19/i-know-jquery-now-what/
+- http://www.sitepoint.com/do-you-really-need-jquery/
+- http://siriusastrebe.wordpress.com/2013/12/18/the-no-jquery-challenge/
+- http://stackoverflow.com/a/5100169/1536309
+- http://youmightnotneedjquery.com/
+- http://evanhahn.com/doing-without-jquery/
+
+___
+
+jQuery API - Click link to see examples of how to produce the same results without jQuery.
 
 <a href="//api.jquery.com/add/" title="Permalink to .add()" rel="bookmark">.add()</a> - <span>Add elements to the set of matched elements.</span>
 

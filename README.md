@@ -5,7 +5,9 @@ without-jquery
 
 jQuery is a blessing and a curse. It provides a *simple* API to query and manipulate the DOM which provides a super simple way for beginners to start using javascript.
 
-I do lots of mentoring with [coding programs/bootcamps](http://gschool.blairanderson.co) and most beginner devs don't actually realize that jQuery and javascript are different things!
+To be clear, I have a great amount of respect for jQuery, and still introduce it to 90% of projects. The purpose of this repo is EDUCATION.
+
+The main reason i wanted to do this was for myself, my mentees, and my peers. I mentor some students that are [learning to code](http://gschool.blairanderson.co) and realized most beginner devs don't know that jQuery and javascript are different things!
 
 I was in that same boat, along with many people in their first year of learning programming and javascript, and if you are working with a junior engineer, do not be certain that they fully understand this relationship...
 
@@ -17,8 +19,6 @@ Our purpose is to educate people that understand jQuery and want to learn Plain 
 
 Lets provide code examples of how to do all-things-jQuery, **without jQuery**.
 
-To be clear, I have a great amount of respect for jQuery, and still introduce it to 90% of projects. The purpose of this repo is EDUCATION.
-
 inspiration:
 - https://github.com/jquery/jquery/tree/master/src
 - http://remysharp.com/2013/04/19/i-know-jquery-now-what/
@@ -28,6 +28,9 @@ inspiration:
 - http://youmightnotneedjquery.com/
 - http://evanhahn.com/doing-without-jquery/
 
+
+## NOTES
+Some parts of the jQuery API just don't make sense to show with code examples but we'll leave them here for sake of simplicity.
 ___
 
 jQuery API - Click link to see examples of how to produce the same results without jQuery.

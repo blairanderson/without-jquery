@@ -1,7 +1,8 @@
-without-jquery
-==============
+---
+layout: default
+---
 
-# Learning how to do all the jQuery things without jQuery!
+## Learning how to do all the jQuery things without jQuery!
 
 jQuery is a blessing and a curse. It provides a *simple* API to query and manipulate the DOM which provides a super simple way for beginners to start using javascript.
 
@@ -11,7 +12,7 @@ The main reason i wanted to do this was for myself, my mentees, and my peers. I 
 
 I was in that same boat, along with many people in their first year of learning programming and javascript, and if you are working with a junior engineer, do not be certain that they fully understand this relationship...
 
-# Purpose
+## Purpose
 **EDUCATION**
 I initially learned jQuery with code examples like "*How to Toggle Class on Click*"...  
 
@@ -29,7 +30,7 @@ inspiration:
 - http://evanhahn.com/doing-without-jquery/
 
 
-## NOTES
+### NOTES
 Some parts of the jQuery API just don't make sense to show with code examples but we'll leave them here for sake of simplicity.
 ___
 

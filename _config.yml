@@ -1,0 +1,17 @@
+name: Without jQuery
+title:  Learn Javascript with code examples to replace jQuery
+highlighter: pygments
+sass:
+    sass_dir: _sass
+exclude: [
+  "vendor",
+  "javascripts",
+  "node_modules",
+  "Gemfile",
+  "Gemfile.lock",
+  "bower_components"
+]
+
+include: [
+  "readme"
+]

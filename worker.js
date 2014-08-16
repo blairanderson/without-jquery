@@ -3,6 +3,7 @@
 var fs = require('fs');
 var async = require('async');
 var handlebars = require('handlebars');
+var methodsList = require('./method.js');
 
 // read the file and use the callback to render
 fs.readFile('help.hbs', function (err, data) {
@@ -10,7 +11,7 @@ fs.readFile('help.hbs', function (err, data) {
     // make the buffer into a string
     var template = handlebars.compile(data.toString());
 
-    async.each(test, function (m, next) {
+    async.each(methodsList, function (m, next) {
       var filename, writer, output, method;
 
       filename = m.href.replace("html", "md");
@@ -36,6 +37,6 @@ fs.readFile('help.hbs', function (err, data) {
       console.log("res", res);
     });
   } else {
-    throw new Error("Some shit: " + err);
+    throw new Error(err);
   }
 });

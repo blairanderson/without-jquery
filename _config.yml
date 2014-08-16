@@ -7,6 +7,7 @@ sass:
     sass_dir: _sass
 exclude: [
   "help.hbs",
+  "scraper.js",
   "method",
   "working.js",
   "vendor",

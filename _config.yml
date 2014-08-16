@@ -6,8 +6,9 @@ kramdown:
 sass:
     sass_dir: _sass
 exclude: [
-  "docs/working.js",
-  "docs/node_modules",
+  "help.hbs",
+  "method",
+  "working.js",
   "vendor",
   "javascripts",
   "node_modules",

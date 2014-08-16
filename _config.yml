@@ -1,9 +1,13 @@
 name: Without jQuery
 title:  Learn Javascript with code examples to replace jQuery
 highlighter: pygments
+kramdown:
+  input: GFM
 sass:
     sass_dir: _sass
 exclude: [
+  "docs/working.js",
+  "docs/node_modules",
   "vendor",
   "javascripts",
   "node_modules",

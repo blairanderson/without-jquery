@@ -10,7 +10,7 @@ href: "docs/find.html"
 status: "active"
 ---
 
-#### **[Find by Class](#find-by-class)**
+#### **Find by Class**
 
 ```javascript
 
@@ -26,7 +26,7 @@ var i = document.querySelectorAll(".help-text");
 
 ___
 
-#### **[Find by ID](#find-by-id)**
+#### **Find by ID**
 
 ```javascript
 

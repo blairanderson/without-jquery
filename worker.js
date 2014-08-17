@@ -3,7 +3,7 @@
 var fs = require('fs');
 var async = require('async');
 var handlebars = require('handlebars');
-var methodsList = require('./method.js');
+var methodsList = require('./method.js'); // convert to json http://stackoverflow.com/a/7165572
 
 // read the file and use the callback to render
 fs.readFile('help.hbs', function (err, data) {

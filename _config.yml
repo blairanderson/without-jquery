@@ -1,7 +1,7 @@
 name: Without jQuery
 title:  Learn Javascript with code examples to replace jQuery
 baseurl: /without-jquery
-highlighter: pygments
+highlighter: kramdown
 kramdown:
   input: GFM
 sass:

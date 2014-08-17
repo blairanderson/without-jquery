@@ -13,7 +13,7 @@ layout: default
         {% for page in site.pages %}
         {% if page.status == "active" %}
         <div>
-            <a href="{{page.url}}" title="{{page.title}}">{{page.method}}</a>
+            <a href="{{site.baseurl}}{{page.url}}" title="{{page.title}}">{{page.method}}</a>
             <span> - </span>
             <span>{{page.description}}</span>
         </div>
@@ -25,7 +25,7 @@ layout: default
         {% for page in site.pages %}
         {% if page.status == "inactive" %}
         <div>
-            <a href="{{page.url}}" title="{{page.title}}">{{page.method}}</a>
+            <a href="{{site.baseurl}}{{page.url}}" title="{{page.title}}">{{page.method}}</a>
             <span> - </span>
             <span>{{page.description}}</span>
         </div>
